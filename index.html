@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nixie+One|Nova+Square|Russo+One|Viga&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="pingpong.css">
+    <script src="pingpong.js"></script>
+</head>
+
+<body style="display:flex; justify-content:center;" onload="startBall()">
+    <div class="vertical"></div>
+    <div class="score-holder"
+        style="font-size:200px;color: white; font-family: Nixie One; margin: auto 0;height: 100%; max-width: 100%">
+        <span style="margin: 40px" id="score1">0</span>
+        <span style="margin: 40px" id="score2">0</span>
+    </div>
+    <div id="paddle1"></div>
+    <div id="ball"></div>
+    <div id="paddle2"></div>
+    <button style="background-color: #fff; color: black; width: 120px; height: 30px;" id="play_button"
+        onclick="play_button()">How to play</button> <br>
+    <button id="stop_button" style="width: 120px; height: 30px;" onclick="stop_button()">Stop Game</button>
+</body>
