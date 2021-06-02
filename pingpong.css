@@ -1,3 +1,7 @@
+body {
+    background-color:black;
+}
+
 #paddle1 {
     position:absolute;
     left:0px;
@@ -28,10 +32,6 @@
     border-radius:50%
 }
 
-body {
-    background-color:black;
-}
-
 .vertical {
     border-left: 6px dashed white;
     height: 100%;
@@ -43,21 +43,4 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-}
-
-/* For the button*/
-#play_button {
-    position:absolute;
-    top:70%; 
-    /*left:50%;*/
-    border: none;
-}
-
-#stop_button {
-    position:absolute;
-    top:60%; 
-    /*left:50%;*/
-    border: none;
-    color: #fff;
-    background-color: #dc3545; 
 }
